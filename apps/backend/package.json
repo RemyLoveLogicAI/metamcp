@@ -19,12 +19,12 @@
     "db:migrate:dev": "dotenv -e ../../.env.local -- drizzle-kit migrate"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.12.3",
+    "@modelcontextprotocol/sdk": "^1.24.0",
     "@repo/trpc": "workspace:*",
     "@repo/zod-types": "workspace:*",
     "@trpc/server": "^11.4.1",
     "basic-auth": "^2.0.1",
-    "better-auth": "^1.2.9",
+    "better-auth": "^1.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "drizzle-orm": "^0.44.2",
